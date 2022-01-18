@@ -11,7 +11,7 @@ services:
       - POSTGRES_PASSWORD=postgres
   web:
     build: .
-    command: /app/start
+    command: /app/bin/start
     volumes:
       - .:/app
     ports:

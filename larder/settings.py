@@ -32,6 +32,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'pantry.apps.PantryConfig',
+    'recipe_manager.apps.RecipeManagerConfig',
+    'grocery_manager.apps.GroceryManagerConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

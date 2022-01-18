@@ -1,0 +1,3 @@
+#! /bin/bash
+
+docker exec -it larder_web_1 /bin/bash 
