@@ -1,0 +1,9 @@
+#! /bin/bash
+
+sleep 2
+
+echo "[larder] running migrations ..."
+python manage.py migrate
+
+echo "[larder] starting server..."
+exec python manage.py runserver 0.0.0.0:8000
